@@ -61,6 +61,9 @@ dev_2 = Developer('Petr', 'Petrov', 70000, 'Java')
 dev_1 = Developer('Ivan', 'Ivanov', 60000, 'Python')
 dev_2 = Developer('Petr', 'Petrov', 70000, 'Java')
 print(dev_1 + dev_2)
+emp_1 = Employee('Petr', 'Petrov', 50000)
+print(dev_1 + emp_1)
+print(dev_2 + 10000)
 
 # Задачи
 ## task_1:
@@ -69,12 +72,9 @@ Cоздать класс для разработчиков, установить
 1. Создать класс, наследуемый от базового
 2. Переопределить атрибут класса
 3. Создать два экземпляра класса
-
-
-
-emp_1 = Employee('Petr', 'Petrov', 50000)
-print(dev_1 + emp_1)
-
-print(dev_2 + 10000)
-
- 
+   
+## task_2:
+Добавить разработчикам атрибут "язык программирования"
+1. Создать инициализатор
+2. Вызвать super()
+3. Дописать атрибут prog_lang
